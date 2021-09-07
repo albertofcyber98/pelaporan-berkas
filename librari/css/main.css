@@ -1,0 +1,123 @@
+@media (min-width: 992px) {
+  .login-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(65%, #ffffff), color-stop(35%, #C3FFF2));
+    background: linear-gradient(90deg, #ffffff 65%, #C3FFF2 35%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.page-login {
+  height: 100vh;
+}
+
+.page-login .btn-login {
+  background-color: #FF9900;
+  color: #fff;
+}
+
+.page-login .btn-login:hover {
+  color: #fff;
+}
+
+.page-login h1 {
+  color: #0F5747;
+  font-weight: bold;
+  font-family: 'Playfair Display',serif;
+  font-size: 35px;
+}
+
+.page-login h2 {
+  color: #0F5747;
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: -10px;
+}
+
+.page-login h3 {
+  font-size: 14px;
+  font-weight: normal;
+  color: #0F5747;
+}
+
+.page-login h3 .link {
+  color: #FF9900;
+}
+
+.page-login .password-link {
+  color: #BDBDBD;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.page-login .f-color {
+  color: #0F5747;
+}
+
+.page-login .btn-font {
+  font-weight: bold;
+}
+@media (min-width: 992px) {
+  .register-container {
+    background: -webkit-gradient(linear, left top, right top, color-stop(65%, #ffffff), color-stop(35%, #C3FFF2));
+    background: linear-gradient(90deg, #ffffff 65%, #C3FFF2 35%);
+    width: 100vw;
+    height: 100vh;
+  }
+}
+
+.register-container h4 {
+  font-size: 15px;
+}
+
+.register-container h4 .link {
+  color: #FF9900;
+}
+
+.register-container .card {
+  margin-top: -60px;
+}
+
+.register-container .page-register h1 {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Playfair Display',serif;
+  font-size: 40px;
+  text-align: left;
+  margin-left: -80px;
+  margin-top: 400px;
+}
+
+.register-container .page-register h2 {
+  color: #ffffff;
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  margin-left: -80px;
+  margin-top: 2px;
+}
+
+.register-container .form-group {
+  font-size: 14px;
+}
+
+.register-container .form-group .form-control {
+  height: 35px;
+}
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+    font-size: 44px;
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
